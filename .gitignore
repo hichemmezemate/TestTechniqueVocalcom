@@ -1,0 +1,29 @@
+# --- .NET Build & Outputs ---
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Node / React (Frontend) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*.local
+.eslintcache
+
+# --- IDE / Editor configs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Operating System Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
