@@ -4,7 +4,7 @@ Ce projet est une mini-application de gestion de commandes clients. Elle comport
 
 ---
 
-## 🛠️ Architecture du Projet
+## Architecture du Projet
 
 Le workspace est structuré comme suit :
 
@@ -38,7 +38,7 @@ TestTechniqueVocalCom/
 
 ---
 
-## 📋 Prérequis
+## Prérequis
 
 Pour exécuter cette application locale, assurez-vous d'avoir :
 1. **Node.js** (version 18 ou supérieure, `v24.12.0` validée).
@@ -48,7 +48,7 @@ Pour exécuter cette application locale, assurez-vous d'avoir :
 
 ---
 
-## 🚀 Guide d'Exécution
+## Guide d'Exécution
 
 ### 1. Démarrage du Backend (API)
 Le backend a été configuré pour démarrer sur le port **5000** afin de s'aligner avec le service frontend.
@@ -71,7 +71,7 @@ npm run dev
 
 ---
 
-## 🧪 Exécution des Tests
+## Exécution des Tests
 
 ### Backend (.NET MSTest)
 Pour exécuter la suite de tests unitaires du backend :
@@ -91,7 +91,7 @@ npm run test
 
 ---
 
-## 💡 Choix Techniques & Bonnes Pratiques
+## Choix Techniques & Bonnes Pratiques
 
 ### Backend
 * **Thread-Safety** : Les commandes sont stockées en mémoire à l'aide d'un `ConcurrentDictionary<Guid, Order>`. Cela garantit la sécurité des accès concurrents (lecture/écriture simultanée) sans bloquer les requêtes.
